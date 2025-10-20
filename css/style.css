@@ -631,3 +631,37 @@ footer a:hover {
   margin-bottom: 8px;
   text-align: left;
 }
+/* Responsive design for About page */
+@media (max-width: 768px) {
+  header nav {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-text {
+    max-width: 100%;
+  }
+
+  .about-image img {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+  }
+
+  .kpis {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer {
+    text-align: center;
+    padding: 10px;
+  }
+}
